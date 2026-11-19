@@ -1,7 +1,7 @@
 # Datasets
-This repository contains the four MWEiC datasets for Galician MWEs resulting from combining the two creation variants (MWEGenCorp, SentDisjCorp) and two syntactic patterns (noun-adjective, verb-object). Each dataset is partitioned into training, development, and test splits, following an 70/10/20 distribution, with balanced development and test splits, although the final proportions may vary across configurations.
+This folder contains the four MWEiC datasets for Galician MWEs resulting from combining the two creation variants (MWEGenCorp, SentDisjCorp) and two syntactic patterns (noun-adjective, verb-object). Each dataset is partitioned into training, development, and test splits, following an 70/10/20 distribution, with balanced development and test splits, although the final proportions may vary across configurations.
 
-Each TSV file contains the following columns:
+Each TSV file follows a WiC structure with both sentences and their classification label, together with additional information for the MWE.
 
 | Header | Description |
 |----------|------|

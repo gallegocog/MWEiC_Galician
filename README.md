@@ -16,6 +16,6 @@ These datasets, together with details about their contents, can be found in [`/d
 
 
 ## Scripts
-We conducted an extensive benchmarking study using standard WiC evaluation methods to assess our proposed MWEiC task. Specifically, we evaluated supervised classifiers initialized with different types of composite vectors derived from LMs, including encoder and generative models of varying sizes. We further investigated performance across different dataset settings (e.g., noun-adjective vs verb-object MWEs) and analyzed how it varies across model layers. We also compared these classifiers with static word vectors and with prompt-based strategies using instruction-tuned models.
+We conducted an extensive benchmarking study using standard WiC evaluation methods to assess our proposed MWEiC task. Specifically, we evaluated supervised classifiers initialized with different types of composite vectors derived from language models, including encoder and generative models of varying sizes. We further investigated performance across different dataset settings (e.g., noun-adjective vs verb-object MWEs) and analyzed how it varies across model layers. We also compared these classifiers with static word vectors and with prompt-based strategies using instruction-tuned models.
 
 The scripts used to conduct these experiments can be found in [`/scripts`](./scripts/).
