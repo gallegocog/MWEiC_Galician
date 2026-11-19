@@ -47,7 +47,7 @@ Parquet file specified by `--output`, containing classification metrics per mode
 
 ### `get_baselines.py` - Baseline Evaluation
 Evaluates two alternative approaches for performance analysis:
--  **Static embeddings**: runs a classiflication procedure similar to `train_regressors.py` but using static embeddings from FastText models. The script expects a `fasttext_models` folder with the corresponding `.vec` files.
+-  **Static embeddings**: runs a classiflication procedure similar to `train_regressors.py` but using static embeddings from FastText models. The script expects a `fasttext_models/` folder with the corresponding `.vec` files.
 
 - **LLM prompting**: runs a few-shot classification procedure using English instructions.
 
@@ -102,7 +102,6 @@ Note: if you want to include both the results from the English and Galician prom
 ### `utils.py` - Utility Functions
 Provides shared helper functions for data loading, logging, and model evaluation.
 
----
 
 ## Workflow
 The typical workflow:
